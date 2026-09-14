@@ -1,0 +1,21 @@
+{
+  "extName": { "message": "Auto Refresh" },
+  "extDescription": { "message": "Automatically refresh the current tab at a configurable interval." },
+  "appTitle": { "message": "Auto Refresh" },
+  "intervalLabel": { "message": "Refresh every" },
+  "unitSeconds": { "message": "Seconds" },
+  "unitMinutes": { "message": "Minutes" },
+  "startButton": { "message": "Start" },
+  "stopButton": { "message": "Stop" },
+  "statusLabel": { "message": "Status:" },
+  "statusActive": { "message": "Active" },
+  "statusStopped": { "message": "Stopped" },
+  "countdownLabel": { "message": "Next refresh in:" },
+  "errorInvalidNumber": { "message": "Please enter a valid number greater than 0." },
+  "errorIntervalRange": { "message": "Interval must be between 1 second and 5 minutes." },
+  "errorUnsupportedPage": { "message": "Auto-refresh is not available on this page." },
+  "errorStartFailed": { "message": "Could not start auto-refresh on this page." },
+  "errorStopFailed": { "message": "Could not stop auto-refresh on this page." },
+  "errorTemporary": { "message": "Could not reach the page right now. Please try again shortly." },
+  "warningShortInterval": { "message": "Frequent refreshes may affect system performance." }
+}

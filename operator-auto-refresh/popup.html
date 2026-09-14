@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title data-i18n="appTitle">Auto Refresh</title>
+  <link rel="stylesheet" href="popup.css" />
+</head>
+<body>
+  <main class="panel">
+    <div class="header">
+      <img src="icons/logo.png" alt="" class="logo" />
+      <h1 class="title" data-i18n="appTitle">Auto Refresh</h1>
+    </div>
+
+    <!-- Interval settings -->
+    <div class="field-row interval-card">
+      <label for="intervalValue" data-i18n="intervalLabel">Refresh every</label>
+      <div class="input-group">
+        <input type="number" id="intervalValue" min="1" max="300" step="1" value="30" />
+        <select id="intervalUnit">
+          <option value="seconds" data-i18n="unitSeconds" selected>Seconds</option>
+          <option value="minutes" data-i18n="unitMinutes">Minutes</option>
+        </select>
+      </div>
+    </div>
+
+    <p id="errorText" class="error-text" hidden></p>
+    <p id="warningText" class="warning-text" hidden></p>
+
+    <!-- Controls -->
+    <div class="button-row">
+      <button id="startBtn" class="btn btn-start" data-i18n="startButton">Start</button>
+      <button id="stopBtn" class="btn btn-stop" data-i18n="stopButton">Stop</button>
+    </div>
+
+    <!-- Live status -->
+    <div class="status-row">
+      <span class="status-label" data-i18n="statusLabel">Status:</span>
+      <span id="statusText" class="status-value status-stopped" data-i18n="statusStopped">Stopped</span>
+    </div>
+    <div class="status-row">
+      <span class="status-label" data-i18n="countdownLabel">Next refresh in:</span>
+      <span id="countdownText" class="status-value">--</span>
+    </div>
+  </main>
+
+
+  <script src="popup.js"></script>
+</body>
+</html>

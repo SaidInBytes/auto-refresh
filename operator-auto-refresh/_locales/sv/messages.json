@@ -1,0 +1,21 @@
+{
+  "extName": { "message": "Auto Refresh" },
+  "extDescription": { "message": "Uppdatera automatiskt den aktuella fliken med ett valbart intervall." },
+  "appTitle": { "message": "Auto Refresh" },
+  "intervalLabel": { "message": "Uppdatera var" },
+  "unitSeconds": { "message": "Sekunder" },
+  "unitMinutes": { "message": "Minuter" },
+  "startButton": { "message": "Starta" },
+  "stopButton": { "message": "Stoppa" },
+  "statusLabel": { "message": "Status:" },
+  "statusActive": { "message": "Aktiv" },
+  "statusStopped": { "message": "Stoppad" },
+  "countdownLabel": { "message": "Nästa uppdatering om:" },
+  "errorInvalidNumber": { "message": "Ange ett giltigt tal större än 0." },
+  "errorIntervalRange": { "message": "Intervallet måste vara mellan 1 sekund och 5 minuter." },
+  "errorUnsupportedPage": { "message": "Automatisk uppdatering är inte tillgänglig på den här sidan." },
+  "errorStartFailed": { "message": "Kunde inte starta automatisk uppdatering på den här sidan." },
+  "errorStopFailed": { "message": "Kunde inte stoppa automatisk uppdatering på den här sidan." },
+  "errorTemporary": { "message": "Kunde inte nå sidan just nu. Försök igen om en liten stund." },
+  "warningShortInterval": { "message": "Täta uppdateringar kan påverka systemets prestanda." }
+}
